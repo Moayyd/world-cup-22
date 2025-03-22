@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>كأس العالم 2022</title>
+
+    <!-- LIBRARIES -->
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!--// BOOTSTRAP //-->
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--// GOOGLE FONTS //-->
+
+    <style>
+      body {
+        font-family: "Almarai", sans-serif;
+      }
+      .bg-primary {
+        background: #811538 !important;
+        color: white;
+      }
+      .bg-secondary {
+        background: #5b0d25 !important;
+        color: white;
+      }
+      #header-background {
+        background-image: url("/img/pattern.png");
+      }
+      #header {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+        border-bottom: solid 20px #5b0d25;
+      }
+      #logo-header {
+        position: absolute;
+        z-index: 999;
+        left: 100px;
+        top: 60px;
+      }
+      #logo-img {
+        height: 300px;
+        -webkit-filter: drop-shadow(5px 5px 30px #222);
+        filter: drop-shadow(5px 5px 30px #222);
+      }
+      .team-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- LOGO HEADER -->
+    <div id="logo-header">
+      <img id="logo-img" src="img/logo.png" alt="" />
+    </div>
+    <!-- LOGO HEADER -->
+
+    <!-- HEADER -->
+    <div id="header" style="height: 20rem" class="bg-primary">
+      <div id="header-background" style="width: 100%; height: 100%">
+        <div
+          class="p-5"
+          style="
+            direction: rtl;
+            font-size: 50px;
+            margin-right: 100px;
+            color: white;
+          "
+        >
+          <h1 style="font-size: 70px; font-weight: 800">كأس</h1>
+          <h1 style="font-size: 90px; font-weight: 800">العالم</h1>
+        </div>
+      </div>
+    </div>
+    <!--// HEADER //-->
+
+    <!-- QATAR WORD -->
+    <div class="d-flex justify-content-center" style="margin-top: 30px">
+      <img src="/img/qatar-word.png" alt="" style="width: 400px" />
+    </div>
+    <!--// QATAR WORD //-->
+
+    <!-- MAIN CONTENT -->
+    <div class="container" style="margin-top: 50px">
+      <!-- STANDINGS -->
+      <div class="p-5 mt-1">
+        <!-- TITLE ROW -->
+        <div class="row" style="direction: rtl">
+          <h1><b>المجموعات</b></h1>
+          <hr />
+        </div>
+        <!--// TITLE ROW //-->
+
+        <!-- STANDINGS ROW -->
+        <div class="row" id="standings">
+          <!-- Group A -->
+          <div class="col-sm-6 mb-4">
+            <div class="card shadow border-none">
+              <div class="card-header bg-primary" style="text-align: center">
+                <b>Group A</b>
+              </div>
+              <div class="row m-0 bg-secondary">
+                <div class="col-sm-4" style="text-align: center">Team</div>
+                <div class="col-sm-2" style="text-align: center">W</div>
+                <div class="col-sm-2" style="text-align: center">L</div>
+                <div class="col-sm-2" style="text-align: center">D</div>
+                <div class="col-sm-2" style="text-align: center">Pts</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/nl.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Netherlands</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>7</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/sn.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Senegal</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>6</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ec.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Ecuador</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/qa.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Qatar</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">3</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>0</b>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Group B -->
+          <div class="col-sm-6 mb-4">
+            <div class="card shadow border-none">
+              <div class="card-header bg-primary" style="text-align: center">
+                <b>Group B</b>
+              </div>
+              <div class="row m-0 bg-secondary">
+                <div class="col-sm-4" style="text-align: center">Team</div>
+                <div class="col-sm-2" style="text-align: center">W</div>
+                <div class="col-sm-2" style="text-align: center">L</div>
+                <div class="col-sm-2" style="text-align: center">D</div>
+                <div class="col-sm-2" style="text-align: center">Pts</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/gb-eng.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>England</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>7</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/us.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>USA</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>5</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ir.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Iran</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>3</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/gb-wls.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Wales</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>1</b>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Group C -->
+          <div class="col-sm-6 mb-4">
+            <div class="card shadow border-none">
+              <div class="card-header bg-primary" style="text-align: center">
+                <b>Group C</b>
+              </div>
+              <div class="row m-0 bg-secondary">
+                <div class="col-sm-4" style="text-align: center">Team</div>
+                <div class="col-sm-2" style="text-align: center">W</div>
+                <div class="col-sm-2" style="text-align: center">L</div>
+                <div class="col-sm-2" style="text-align: center">D</div>
+                <div class="col-sm-2" style="text-align: center">Pts</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ar.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Argentina</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>6</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/pl.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Poland</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/mx.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Mexico</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/sa.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Saudi Arabia</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>3</b>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Group D -->
+          <div class="col-sm-6 mb-4">
+            <div class="card shadow border-none">
+              <div class="card-header bg-primary" style="text-align: center">
+                <b>Group D</b>
+              </div>
+              <div class="row m-0 bg-secondary">
+                <div class="col-sm-4" style="text-align: center">Team</div>
+                <div class="col-sm-2" style="text-align: center">W</div>
+                <div class="col-sm-2" style="text-align: center">L</div>
+                <div class="col-sm-2" style="text-align: center">D</div>
+                <div class="col-sm-2" style="text-align: center">Pts</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/fr.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>France</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>6</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/au.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Australia</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>6</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/tn.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Tunisia</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/dk.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Denmark</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>1</b>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Group E -->
+          <div class="col-sm-6 mb-4">
+            <div class="card shadow border-none">
+              <div class="card-header bg-primary" style="text-align: center">
+                <b>Group E</b>
+              </div>
+              <div class="row m-0 bg-secondary">
+                <div class="col-sm-4" style="text-align: center">Team</div>
+                <div class="col-sm-2" style="text-align: center">W</div>
+                <div class="col-sm-2" style="text-align: center">L</div>
+                <div class="col-sm-2" style="text-align: center">D</div>
+                <div class="col-sm-2" style="text-align: center">Pts</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/jp.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Japan</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>6</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/es.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Spain</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/de.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Germany</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/cr.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Costa Rica</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>3</b>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Group F -->
+          <div class="col-sm-6 mb-4">
+            <div class="card shadow border-none">
+              <div class="card-header bg-primary" style="text-align: center">
+                <b>Group F</b>
+              </div>
+              <div class="row m-0 bg-secondary">
+                <div class="col-sm-4" style="text-align: center">Team</div>
+                <div class="col-sm-2" style="text-align: center">W</div>
+                <div class="col-sm-2" style="text-align: center">L</div>
+                <div class="col-sm-2" style="text-align: center">D</div>
+                <div class="col-sm-2" style="text-align: center">Pts</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ma.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Morocco</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>7</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/hr.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Croatia</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>5</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/be.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Belgium</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ca.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Canada</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">3</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>0</b>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Group G -->
+          <div class="col-sm-6 mb-4">
+            <div class="card shadow border-none">
+              <div class="card-header bg-primary" style="text-align: center">
+                <b>Group G</b>
+              </div>
+              <div class="row m-0 bg-secondary">
+                <div class="col-sm-4" style="text-align: center">Team</div>
+                <div class="col-sm-2" style="text-align: center">W</div>
+                <div class="col-sm-2" style="text-align: center">L</div>
+                <div class="col-sm-2" style="text-align: center">D</div>
+                <div class="col-sm-2" style="text-align: center">Pts</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/br.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Brazil</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>6</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ch.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Switzerland</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>6</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/cm.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Cameroon</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/rs.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Serbia</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>1</b>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Group H -->
+          <div class="col-sm-6 mb-4">
+            <div class="card shadow border-none">
+              <div class="card-header bg-primary" style="text-align: center">
+                <b>Group H</b>
+              </div>
+              <div class="row m-0 bg-secondary">
+                <div class="col-sm-4" style="text-align: center">Team</div>
+                <div class="col-sm-2" style="text-align: center">W</div>
+                <div class="col-sm-2" style="text-align: center">L</div>
+                <div class="col-sm-2" style="text-align: center">D</div>
+                <div class="col-sm-2" style="text-align: center">Pts</div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/pt.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Portugal</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>6</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/kr.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>South Korea</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/uy.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Uruguay</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>4</b>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-sm-4 team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/gh.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Ghana</b></h5>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center">1</div>
+                    <div class="col-sm-2" style="text-align: center">2</div>
+                    <div class="col-sm-2" style="text-align: center">0</div>
+                    <div class="col-sm-2" style="text-align: center">
+                      <b>3</b>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--// STANDINGS ROW //-->
+      </div>
+      <!--// STANDINGS //-->
+
+      <!-- MATCHES -->
+      <div>
+        <!-- TITLE ROW -->
+        <div class="row" style="direction: rtl">
+          <h1><b>المباريات</b></h1>
+          <hr />
+        </div>
+        <!--// TITLE ROW //-->
+
+        <!-- MATCHES ROW -->
+        <div class="row" id="matches">
+          <!-- Match 1: Qatar vs Ecuador -->
+          <div class="col-sm-12">
+            <div class="card shadow rounded-pill mt-5" style="overflow: hidden">
+              <div class="card-body p-0">
+                <div class="row" style="height: 120px">
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-right: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/qa.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Qatar</b></h5>
+                    </div>
+                  </div>
+                  <div class="col-sm-6" style="text-align: center">
+                    <div class="row">
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>0</h3>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h6>Group A</h6>
+                        <h1>X</h1>
+                        <h6>2022 / 11 / 20 19:00</h6>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>2</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-left: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ec.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Ecuador</b></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Match 2: Argentina vs Saudi Arabia -->
+          <div class="col-sm-12">
+            <div class="card shadow rounded-pill mt-5" style="overflow: hidden">
+              <div class="card-body p-0">
+                <div class="row" style="height: 120px">
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-right: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ar.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Argentina</b></h5>
+                    </div>
+                  </div>
+                  <div class="col-sm-6" style="text-align: center">
+                    <div class="row">
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>1</h3>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h6>Group C</h6>
+                        <h1>X</h1>
+                        <h6>2022 / 11 / 22 13:00</h6>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>2</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-left: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/sa.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Saudi Arabia</b></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Match 3: England vs Iran -->
+          <div class="col-sm-12">
+            <div class="card shadow rounded-pill mt-5" style="overflow: hidden">
+              <div class="card-body p-0">
+                <div class="row" style="height: 120px">
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-right: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/gb-eng.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>England</b></h5>
+                    </div>
+                  </div>
+                  <div class="col-sm-6" style="text-align: center">
+                    <div class="row">
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>6</h3>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h6>Group B</h6>
+                        <h1>X</h1>
+                        <h6>2022 / 11 / 21 16:00</h6>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>2</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-left: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ir.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Iran</b></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Match 4: France vs Australia -->
+          <div class="col-sm-12">
+            <div class="card shadow rounded-pill mt-5" style="overflow: hidden">
+              <div class="card-body p-0">
+                <div class="row" style="height: 120px">
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-right: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/fr.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>France</b></h5>
+                    </div>
+                  </div>
+                  <div class="col-sm-6" style="text-align: center">
+                    <div class="row">
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>4</h3>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h6>Group D</h6>
+                        <h1>X</h1>
+                        <h6>2022 / 11 / 22 22:00</h6>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>1</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-left: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/au.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Australia</b></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Match 5: Japan vs Germany -->
+          <div class="col-sm-12">
+            <div class="card shadow rounded-pill mt-5" style="overflow: hidden">
+              <div class="card-body p-0">
+                <div class="row" style="height: 120px">
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-right: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/jp.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Japan</b></h5>
+                    </div>
+                  </div>
+                  <div class="col-sm-6" style="text-align: center">
+                    <div class="row">
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>2</h3>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h6>Group E</h6>
+                        <h1>X</h1>
+                        <h6>2022 / 11 / 23 16:00</h6>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>1</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-left: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/de.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Germany</b></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Match 6: Morocco vs Croatia -->
+          <div class="col-sm-12">
+            <div class="card shadow rounded-pill mt-5" style="overflow: hidden">
+              <div class="card-body p-0">
+                <div class="row" style="height: 120px">
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-right: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/ma.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Morocco</b></h5>
+                    </div>
+                  </div>
+                  <div class="col-sm-6" style="text-align: center">
+                    <div class="row">
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>0</h3>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h6>Group F</h6>
+                        <h1>X</h1>
+                        <h6>2022 / 11 / 23 13:00</h6>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>0</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-left: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/hr.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Croatia</b></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Match 7: Brazil vs Serbia -->
+          <div class="col-sm-12">
+            <div class="card shadow rounded-pill mt-5" style="overflow: hidden">
+              <div class="card-body p-0">
+                <div class="row" style="height: 120px">
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-right: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/br.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Brazil</b></h5>
+                    </div>
+                  </div>
+                  <div class="col-sm-6" style="text-align: center">
+                    <div class="row">
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>2</h3>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h6>Group G</h6>
+                        <h1>X</h1>
+                        <h6>2022 / 11 / 24 22:00</h6>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>0</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-left: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/rs.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Serbia</b></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Match 8: Portugal vs Ghana -->
+          <div class="col-sm-12">
+            <div class="card shadow rounded-pill mt-5" style="overflow: hidden">
+              <div class="card-body p-0">
+                <div class="row" style="height: 120px">
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-right: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/pt.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Portugal</b></h5>
+                    </div>
+                  </div>
+                  <div class="col-sm-6" style="text-align: center">
+                    <div class="row">
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>3</h3>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h6>Group H</h6>
+                        <h1>X</h1>
+                        <h6>2022 / 11 / 24 19:00</h6>
+                      </div>
+                      <div class="col-sm-4" style="margin: auto 0px">
+                        <h3>2</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="col-sm-3 bg-primary d-flex flex-direction-column justify-content-center align-items-center"
+                    style="border-left: solid 5px #5b0d25"
+                  >
+                    <div class="team-container">
+                      <img
+                        style="width: 40px; height: 40px"
+                        class="rounded-circle"
+                        src="https://flagcdn.com/w40/gh.png"
+                        alt=""
+                      />
+                      <h5 style="margin-top: 4px"><b>Ghana</b></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--// MATCHES ROW //-->
+      </div>
+      <!--// MATCHES //-->
+    </div>
+    <!-- // MAIN CONTENT // -->
+  </body>
+</html>
